@@ -1,4 +1,428 @@
-*{
-	margin:0px;
-	padding:0px;
+
+.portada{
+  background-image:url(../img/img-home.png);
+  width:100%;
+  background-size: cover;
 }
+.col-12{
+  padding: 0;
+}
+.row {
+ margin:0;
+}
+.container-fluid{
+  padding: 0;
+  margin: 0;
+}
+.titulo-logo{
+  padding-top: 21%;
+  text-align: center;
+  width: 29%;
+  margin: 0 auto;
+}
+.subtitulo{
+  text-align: center;
+  padding: 7% 23% 2%;
+  color: #66CBF7;
+  font-size: 29px;
+  font-family: inherit;
+}
+img{
+  width: 100%;
+}
+.parrafo{
+  font-size: 19px;
+  padding: 0% 22%;
+  text-align: center;
+  color: gray;
+}
+.titulo-logo2{
+  
+margin-top: 24%;
+  width: 44%;
+  margin: 0 auto;
+}
+.subtitulo2{
+  text-align: center;
+  padding: 7% 9% 2%;
+  color: #66CBF7;
+  font-size: 25px;
+  font-family: inherit;
+}
+.parrafo2{
+  font-size: 18px;
+  padding: 0% 9%;
+  text-align: center;
+  color: gray;
+}
+.boton{ 
+  width: 29.5%;
+  text-align: center;
+  background-color: rgb(249, 74, 100);
+  border-radius: 16px;
+  padding: 14px;
+  margin: 0 auto;
+  color: white;
+}
+a{
+color: white;
+text-decoration: none;  
+}
+.caption{
+  padding-top: 5%;
+  padding-bottom: 22%;
+}
+.flecha img{
+  width: 4%;
+  position: relative;
+  bottom: 29px;
+  left: 48%;
+  border-radius: 76%;
+}
+
+/*VISTA 2 metodologia*/
+.circulo{
+  border-radius:5px;
+}
+.linea {
+  padding-top: 100px;
+}
+
+.line-container {
+  height: 150px;
+  position: relative;
+}
+
+.line2 {
+    width: 220px;
+    height: 47px;
+    border-bottom: 3px dashed rgb(255, 106, 73);
+    -webkit-transform: translateY(-20px) translateX(5px) rotate(-165deg); 
+    position: absolute;
+    top: 123;
+    left: -81;
+}
+
+
+.line1 {
+    width: 220px;
+    height: 47px;
+    border-bottom: 3px dashed rgb(255, 106, 73);
+    -webkit-transform: translateY(-20px) translateX(5px) rotate(165deg); 
+    position: absolute;
+      top: 123px;
+  right: -82px;
+}
+
+.line3 {
+   width: 113px;
+  border-bottom: 3px dashed rgb(255, 106, 73);
+  -webkit-transform: translateY(-20px) translateX(5px) rotate(-90deg);
+  position: absolute;
+  top: 79px;
+  left: 214px;
+}
+.circulo-externo {
+  height: 450px;
+  width: 450px;
+  background-color:#FF5454;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 6px;
+}
+
+.circulo-interno{
+  height: 436px;
+  border-radius: 50%;
+  border: 3px dashed white;
+}
+
+
+.metodologia-texto {
+  text-align: center;
+  padding-top: 14px;
+}
+
+.metodologia-texto h4{
+  font-size: 28px;
+  color: rgb(255, 106, 73);
+}
+
+.metodologia-texto p{
+  font-size: 17px;
+  color: gray;
+}
+
+.metodologia-text {
+  text-align: center;
+  padding-top:0px;
+}
+
+.metodologia-text h4{
+  font-size: 28px;
+  color: rgb(255, 106, 73);
+}
+
+.metodologia-text p{
+  font-size: 17px;
+  color: gray;
+  padding:0% 17%;
+}
+
+.texto-interno{
+  padding: 19% 10%;
+  color: beige;
+  font-size: 29px;
+}
+
+.imagen-metodologia{
+  width: 33px;
+  position: relative;
+  left: 31.5%;
+}
+ .imagen2-metodologia{
+  width: 2%;
+  position: relative;
+  left: 71%;
+  top: -74px;
+ }
+.titulo-metodologia{
+  text-align: center;
+  color: rgb(73, 217, 250);
+  padding: 2% 0;
+}
+
+.subtitulo-metodologia h2{
+  text-align: center;
+  position: relative;
+  top: -39px;
+  color: rgb(255, 106, 73);
+}
+
+.subtitulo-metodologia p{
+ color: black;
+  font-size: 25px;
+  padding: 11px; 
+}
+
+.titulo-cel{
+  text-align: center;
+  color: rgb(73, 217, 250);
+  padding: 2% 0;
+  font-size: 38px;
+  padding: 13% 5% 0;
+}
+
+.texto-cel {
+  text-align: center;
+  padding-top: 14px;
+  color: gray;
+  font-size: 16px;
+}
+
+.texto-cel h4{
+  font-size: 28px;
+  color: rgb(255, 106, 73);
+}
+
+.texto-cel p{
+  color: gray;
+  font-size: 16px;
+}
+
+.text-cel {
+  text-align: center;
+  padding-top:43px;
+}
+
+.text-cel h4{
+  font-size: 28px;
+  color: rgb(255, 106, 73);
+}
+
+.text-cel p{
+  font-size: 17px;
+  color: gray;
+  padding:0% 4%;
+}
+
+
+.texto-celu {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 10%;
+}
+
+.texto-celu h4{
+  font-size: 28px;
+  color: rgb(255, 106, 73);
+}
+
+.texto-celu p{
+  font-size: 17px;
+  color: gray;
+}
+
+.borde2 {
+  width: 82%;
+  border-bottom: 3px dashed #ff6a49;
+  margin: 0 auto;
+  padding-top:11%;
+}
+
+
+.borde1 {
+   width: 82%;
+  border-bottom: 3px dashed #ff6a49;
+  margin: 0 auto;
+  padding-top: 13%;
+}
+
+.caption-blue{
+ padding-top: 19%;
+  padding-bottom: 23%;
+  text-align: center;
+}
+
+.btn{ 
+ width: 48.5%;
+ background-color: #21D9F0;
+ padding: 16px;
+ color: white;
+ font-size: 21px;
+ border-radius:23px;
+}
+
+.flecha-arriba img{
+  width: 4%;
+  position: relative;
+  top: 47px;
+  left: 48%;
+  border-radius: 76%;
+}
+
+.hoja-azul{
+  background-image:url(../imagenes/img/hoja.png);
+  width: 100%;
+  min-height: 400px;
+  background-size:cover;
+}
+
+.texto-farolito h1{
+  padding-top: 7%;
+  text-align: center;
+  color: white;
+}
+
+.texto-farolito p{
+  padding-top: 1%;
+  text-align: center;
+  font-size: 29px;
+  color: white;
+}
+
+.numero-uno{
+  width: 13%;
+   position: absolute;
+  left: 34%;
+}
+
+.numero-dos{
+  width: 13%;
+  position: absolute;
+  left: 34%;
+}
+
+
+.numero-tres{
+  width: 13%;
+  position: absolute;
+  left: 34%;
+}
+
+
+.linea-arriba {
+  width: 258px;
+  height: 47px;
+  border-bottom: 3px dotted white;
+  -webkit-transform: translateY(-20px) translateX(5px) rotate(180deg);
+  position: absolute;
+  top: 34px;
+  left: 55%;
+}
+
+.farolito{
+  padding-top: 29%;
+}
+
+.texto-postulantes1{
+  font-size: 32px;
+  color: white;
+  position: relative;
+  left: 55%;
+  top: 4px;
+}
+
+.linea-abajo{
+  width: 147px;
+  border-bottom: 3px dotted white;
+  -webkit-transform: translateY(-20px) translateX(5px) rotate(-90deg);
+  position: absolute;
+  top: 91px;
+  left: 50px;
+}
+
+.imagen-lapiz{
+  width: 62%;
+  margin: 0 auto;
+  padding-top: 128px;
+}
+
+.imagen-lapiz img{
+  border-radius:54%;
+}
+
+.parrafo-postulante{
+  font-size: 21px;
+  color: white;
+  position: relative;
+  right: 18%;
+  top: 160px;
+  padding: 0 6%;
+}
+
+
+.linea-arriba2 {
+  width: 258px;
+  height: 47px;
+  border-bottom: 3px dotted white;
+  -webkit-transform: translateY(-20px) translateX(5px) rotate(180deg);
+  position: absolute;
+  top: 34px;
+  left: 55%;
+}
+
+.farolito2{
+  top: -52px;
+  position:relative;
+}
+
+.texto-postulante2{
+  font-size: 32px;
+  color: white;
+  position: relative;
+  left: 50%;
+  top: 13px;
+  padding:0 7%;
+}
+/* end VISTA 2 metodologia*/
+/*
+@media screen .and (max-width: 480px){
+  #home {
+background-image: none;
+.logo{
+width: 100%;
+margin: 0;
+}
+*/
+/*VISTA 3 postulantes*/
